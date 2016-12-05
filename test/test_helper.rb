@@ -1,4 +1,4 @@
-$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
-require 'anybase'
+$LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
+require "baseconv"
 
-require 'minitest/autorun'
+require "minitest/autorun"

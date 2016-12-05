@@ -1,6 +1,6 @@
-require "anybase/version"
+require "baseconv/version"
 
-module AnyBase
+module Baseconv
   CHARS = [*("0".."9"), *("a".."z"), *("A".."Z")].join.freeze
   MIN   = 2
   MAX   = CHARS.size

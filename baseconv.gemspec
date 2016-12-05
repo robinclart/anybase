@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'anybase/version'
+require 'baseconv/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "anybase"
-  spec.version       = AnyBase::VERSION
+  spec.name          = "baseconv"
+  spec.version       = Baseconv::VERSION
   spec.authors       = ["Robin Clart"]
   spec.email         = ["robin@omise.co"]
 
   spec.summary       = %q{Convert a number from any base to any other base.}
-  spec.homepage      = "https://github.com/robinclart/anybase"
+  spec.homepage      = "https://github.com/robinclart/baseconv"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
